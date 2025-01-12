@@ -2,13 +2,20 @@ body{
     background-color: hsl(225, 100%, 94%);
     display: flex;
     justify-content: center;
+    height: 100vh;
+    align-items: center;
+    
 }
 
 .d1{
     background-color: white;
-    width: 450px;
+    width: 400px;
     border-radius: 15px;
     text-align: center;
+    
+   
+    
+
     
 }
 .main{
@@ -21,6 +28,7 @@ p{
 img{
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    
 }
 
 .d2{
@@ -28,6 +36,8 @@ img{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-radius: 15px;
+    width: 100%;
 }
 
 .small{
@@ -35,4 +45,33 @@ img{
     justify-content: space-between;
     padding: 10px;
     gap: 30px;
+    align-items: center;
+    
+
+    
 }
+.price{
+    color: rgba(143, 143, 143, 0.884);
+}
+.H{
+    margin-right: 20px;
+}
+.img1{
+    width: 100%;
+}
+.btn{
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 94%);
+    padding: 15px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    font-size: medium;
+    font-style: calc();
+    margin-top: 25px;
+}
+.param{
+    color: rgba(102, 102, 102, 0.747) ;
+    margin-top: 25px;
+}
+    
